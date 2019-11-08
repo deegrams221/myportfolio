@@ -5,7 +5,10 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        Learn React
+        Hello, I'm Diana Grams.<br />
+        I'm a full-stack web developer.<br />
+        <br />
+        <button>View my work!</button>
       </header>
     </div>
   );
