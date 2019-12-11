@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Diana Grams' Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+
+<main class="wrapper">
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-title">
+      <h1>Diana Grams</h1> <br /> 
+      <h2>Full Stack Web Developer</h2>
+    </div>
+    <article>
+      <p>This is a small sampling of my projects, you can view more on my Github. I hope you enjoy my projects as much as I enjoyed creating them!</p>
+      <a href="#projects">View Projects</a>     
+      <a href="https://github.com/deegrams221/" target="_blank"><span class="label">View Github</span></a>
+      <a href="images/DianaGrams_Resume.pdf" target="_blank">View Resume</a>
+      <a href="#contact">Contact Me</a>
+    </article>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="skills" id="skills">
+    <h2>Technical Skills:</h2>
+    <ul>
+      <li>
+          HTML/HTML5
+      </li>
+      <li>
+          CSS/CSS3
+      </li>
+      <li>
+          JavaScript
+      </li>
+      <li>
+          React
+      </li>
+      <li>
+          React frameworks
+      </li>
+      <li>
+          Redux
+      </li>
+      <li>
+          Java(Backend)
+      </li>
+      <li>
+          Springboot
+      </li>
+      <li>
+          Firebase Firestore
+      </li>
+      <li>
+          Testing: Jest and Cypress
+      </li>
+    </ul>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="projects" id="projects">
+    <ul>
+      <li>
+        <figure>
+          <img src="images/wanderlust.png" alt="Wanderlust Build Week project screenshot">
+          <figcaption><h3>Wanderlust</h3></figcaption>
+        </figure>
+        <p>
+          This project was my first build week project. During this build week I had the oportunity to work in a team with two really amazing developers. I worked on the product landing page, the about us page and the contact us page. I used HTML, CSS, and LESS to accomplish this. And had a really great time doing it!
+        </p>
+        <a href="https://wanderlust-adventure-awaits.netlify.com/index.html" target="_blank">Visit Website</a>
+      </li>
+
+      <li>
+        <figure>
+          <img src="images/newsfeed-components.png" alt="Newsfeed Components project screenshot">
+          <figcaption><h3>Newsfeed Components</h3></figcaption>
+        </figure>
+        <p>
+          In this project I built a news feed reader. With a collapsing menu, and expandable news articles. The CSS and some of the HTML was already setup in the project. I connected the CSS and built out the components using JavaScript. I added common functionality and styling to build reusable components.
+        </p>
+        <a href="https://news-components.netlify.com/" target="_blank">Visit Website</a>
+      </li>
+      <li>
+        <figure>
+          <img src="images/npod.png" alt="Nasa Photo Of the Day project screenshot">
+          <figcaption><h3>Nasa Photo of the Day</h3></figcaption>
+        </figure>
+        <p>
+          In this project I consumed the NASA API to fetch the "Astronomy Photo Of The Day" or APOD. Once I fetched the data, I built a few components that rendered different pieces of data in the interface. I styled the app using the Styled-Components library.
+        </p>
+        <a href="https://npod.netlify.com/" target="_blank">Visit Website</a>
+      </li>
+      <li>
+        <figure>
+          <img src="images/single-page-app.png" alt="Single page Rick and Morty project screenshot">
+          <figcaption><h3>Single Page App</h3></figcaption>
+        </figure>
+        <p>
+          I constructed a Single Page Application with React incorporating three page components to display data from three API endpoints. Created a component to show a grid of data from the API. Included useState, useEffect, and used Axios to make a GET request to each endpoint. Used Semantic-UI for styling, and added a Router using React Router.
+        </p>
+        <a href="https://singlepageapp-lambda.netlify.com/" target="_blank">Visit Website</a>
+      </li>
+      <li>
+        <figure>
+          <img src="images/react-todo-list.png" alt="React Todo List project screenshot">
+          <figcaption><h3>React Todo List</h3></figcaption>
+        </figure>
+        <p>
+          In this project I built the components to complete the Todo List application. The todo list is fully functional. The user can add items, mark items complete and remove completed items.
+        </p>
+        <a href="https://react-todo-l9nvethuu.now.sh/" target="_blank">Visit Website</a>
+      </li>
+    </ul>
+  </section>
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <h2>Contact Me</h2>
+    <h3>(619) 888-3375</h3>
+    <h3>deegrams221@gmail.com</h3>
+    <div class="list-group">
+      <a href="https://twitter.com/deegrams221" class="list-group-item" target="_blank"><i class="fa fa-twitter fa-fw"></i></a>
+      <a href="https://github.com/deegrams221" class="list-group-item" target="_blank"><i class="fa fa-github fa-fw"></i></a>
+      <a href="mailto:deegrams221@gmail.com" class="list-group-item" target="_blank"><i class="fa fa-envelope fa-fw"></i></a>
+    </div> 
+    <form method="post" action="https://formsubmit.co/deegrams221@gmail.com">
+      <div class="contact-form">
+        <div class="name-form"><input type="text" name="name" id="name" placeholder="Name" /></div>
+        <div class="email-form"><input type="email" name="email" id="email" placeholder="Email" /></div>
+        <div class="message-form"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>
+        <div class="message">
+          <ul class="message-btn">
+            <li><input type="submit" value="Send Message" class="primary" /></li>
+          </ul>
+        </div>
+      </div>
+    </form>
+  </section>
+</main>
+<!-- Footer -->
+<footer>
+  <p>&copy; 2019 Diana Grams</p>
+</footer>
+
+  
+</body>
+</html>
