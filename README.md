@@ -12,4 +12,4 @@ Email:
 Website URL: 
 https://dianagrams.dev 
 
-I will be adding new content as I create new projects.
+I will be updating this portfolio and adding new content as I create new projects.
