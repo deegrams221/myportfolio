@@ -217,7 +217,7 @@ a:hover {
 
 .skills > ul {
   padding-right: 2rem;
-  columns: 3;
+  columns: 2;
 }
 
 .skills > ul > li {
@@ -230,20 +230,9 @@ a:hover {
     padding-right: 0;
 
   }
-
-  .skills > ul {
-    columns: 2;
-    padding: 10px;
-  }
 }
 
 @media screen and (max-width: 480px) {
-  .skills > h2 {
-    font-size: 1.5rem;
-    padding-right: 0;
-
-  }
-
   .skills > ul {
     columns: 1;
     padding: 10px;
