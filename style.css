@@ -91,7 +91,7 @@ a:hover {
     color: rgb(224, 224, 224);
     font-weight: bold;
   }
-  
+
   .hero > article > p {
     color: rgb(224, 224, 224);
   }
@@ -224,6 +224,19 @@ a:hover {
   padding-bottom: 0.35rem;
 }
 
+@media screen and (max-width: 632px) {
+  .skills > h2 {
+    font-size: 1.5rem;
+    padding-right: 0;
+
+  }
+
+  .skills > ul {
+    columns: 2;
+    padding: 10px;
+  }
+}
+
 @media screen and (max-width: 480px) {
   .skills > h2 {
     font-size: 1.5rem;
@@ -233,7 +246,7 @@ a:hover {
 
   .skills > ul {
     columns: 1;
-    padding: 0;
+    padding: 10px;
   }
 }
 
@@ -407,6 +420,12 @@ input[type=submit] {
   text-align: center;
   display: inline-block;
   border-radius: .45rem;
+}
+
+@media screen and (max-width: 600px) {
+  form {
+    width: 25rem;
+  }
 }
 
 @media screen and (max-width: 480px) {
