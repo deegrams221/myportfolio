@@ -6,9 +6,6 @@ I used HTML5 and CSS3 to create this porfolio. The photos are either taken perso
 
 For any questions please contact me here:
 
-Email:
-<deegrams221@gmail.com> 
-
 Website URL: 
 https://dianagrams.dev 
 
