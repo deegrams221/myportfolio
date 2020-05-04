@@ -1,4 +1,4 @@
-# Diana Grams' Portfolio
+## Diana Grams' Portfolio
 
 This portfolio was created to display a sample of my projects and create a general place for contacting me.
 
