@@ -1,10 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display|Source+Sans+Pro:200,400');
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: 'Playfair Display', serif;
 }
 
-p, a, li {
+p,
+a,
+li {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -16,19 +23,19 @@ a {
   background-color: rgb(218, 137, 32);
   text-decoration: none;
   color: white;
-  border-radius: .25rem;
+  border-radius: 0.25rem;
   text-align: center;
   display: inline-block;
-  transition: all .3s;
+  transition: all 0.3s;
 }
 
 a:hover {
-  opacity: .6;
+  opacity: 0.6;
 }
 
 /* Hero Section */
 .hero {
-  background-color: rgba(0,0,0,.7);
+  background-color: rgba(0, 0, 0, 0.7);
   background: url('images/forest-img.jpg') center;
   background-repeat: no-repeat;
   -webkit-background-size: cover;
@@ -40,7 +47,7 @@ a:hover {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   align-items: center;
-  border-bottom: 1px solid rgba(0,0,0,.7);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.7);
 }
 
 .hero > * {
@@ -72,7 +79,7 @@ a:hover {
 
 .hero > article > a {
   padding: 1rem;
-  margin-top: .75rem;
+  margin-top: 0.75rem;
   margin-right: 1rem;
   width: 7rem;
 }
@@ -106,7 +113,7 @@ a:hover {
   align-content: center;
   padding: 1rem 0;
   margin: 1rem auto;
-  border-bottom: 1px solid rgba(0,0,0,.7);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.7);
   max-width: 100vw;
 }
 
@@ -124,7 +131,7 @@ a:hover {
 
 .about > .aboutMe > img {
   width: 12rem;
-  border-radius: .45rem;
+  border-radius: 0.45rem;
 }
 
 .about > .aboutMe > p {
@@ -138,14 +145,14 @@ a:hover {
 
 .about > .aboutMe > p > a {
   background-color: white;
-  color:  rgb(218, 137, 32);
+  color: rgb(218, 137, 32);
 }
 
 @media screen and (max-width: 1081px) {
   .about > .aboutMe > img {
     width: 12rem;
     max-height: 12rem !important;
-    border-radius: .45rem;
+    border-radius: 0.45rem;
   }
 }
 
@@ -160,7 +167,7 @@ a:hover {
   .about > .aboutMe > img {
     width: 12rem;
     max-height: 12rem !important;
-    border-radius: .45rem;
+    border-radius: 0.45rem;
   }
 }
 
@@ -173,14 +180,12 @@ a:hover {
     margin: 0 auto;
     align-content: center;
     align-items: center;
-
   }
 
   .about > .aboutMe > img {
     width: 12rem;
     max-height: 12rem !important;
-    border-radius: .45rem;
-
+    border-radius: 0.45rem;
   }
 
   .about > .aboutMe > p {
@@ -190,12 +195,10 @@ a:hover {
     color: #363636;
     max-width: 545px;
     text-align: center;
-
   }
 }
 
 @media screen and (max-width: 480px) {
-
 }
 
 /* Skills Section */
@@ -206,7 +209,7 @@ a:hover {
   align-content: center;
   padding: 1rem;
   margin: 1rem auto;
-  border-bottom: 1px solid rgba(0,0,0,.7);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.7);
   max-width: 100vw;
 }
 
@@ -228,7 +231,6 @@ a:hover {
   .skills > h2 {
     font-size: 1.5rem;
     padding-right: 0;
-
   }
 }
 
@@ -251,15 +253,15 @@ a:hover {
 }
 
 .projects > ul > li {
-  border: 1px solid #E2E2E2;
-  border-radius: .5rem;
+  border: 1px solid #e2e2e2;
+  border-radius: 0.5rem;
 }
 
 .projects > ul > li > figure {
   max-height: 220px;
   overflow: hidden;
-  border-top-left-radius: .5rem;
-  border-top-right-radius: .5rem;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
   position: relative;
 }
 
@@ -271,36 +273,36 @@ a:hover {
 .projects > ul > li > figure > figcaption {
   position: absolute;
   bottom: 0;
-  background-color: rgba(0,0,0,.7);
+  background-color: rgba(0, 0, 0, 0.7);
   width: 100%;
 }
 
 .projects > ul > li > figure > figcaption > h3 {
   color: white;
-  padding: .75rem;
+  padding: 0.75rem;
   font-size: 1.25rem;
 }
 
 .projects > ul > li > p {
   font-size: 1rem;
   line-height: 1.5;
-  padding: 1rem .75rem;
+  padding: 1rem 0.75rem;
   color: #666666;
 }
 
 .projects > ul > li > a {
-  padding: .5rem 1rem;
-  margin: .5rem;
+  padding: 0.5rem 1rem;
+  margin: 0.5rem;
 }
 
 @media screen and (max-width: 785px) {
   .projects {
     padding: 0;
-    padding-bottom: .5rem;
+    padding-bottom: 0.5rem;
     margin: 0;
   }
 
-  .projects > ul{
+  .projects > ul {
     max-width: 300px;
     margin: 0 auto;
   }
@@ -331,7 +333,7 @@ a:hover {
     margin: 0;
   }
 
-  .projects > ul{
+  .projects > ul {
     max-width: 300px;
     margin: 0 auto;
   }
@@ -362,7 +364,7 @@ a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  border-top: 1px solid rgba(0,0,0,.7);
+  border-top: 1px solid rgba(0, 0, 0, 0.7);
 }
 
 .contact > .list-group {
@@ -392,23 +394,23 @@ input {
   width: 100%;
   padding: 12px;
   box-sizing: border-box;
-  border-radius: .45rem;
+  border-radius: 0.45rem;
 }
 
 textarea {
   width: 100%;
   padding: 12px;
   box-sizing: border-box;
-  border-radius: .45rem;
+  border-radius: 0.45rem;
 }
 
-input[type=submit] {
+input[type='submit'] {
   background-color: rgb(218, 137, 32);
   color: white;
   font-size: large;
   text-align: center;
   display: inline-block;
-  border-radius: .45rem;
+  border-radius: 0.45rem;
 }
 
 @media screen and (max-width: 600px) {
@@ -426,8 +428,8 @@ input[type=submit] {
 /* Footer */
 footer {
   background-color: rgba(0, 0, 0, 0.863);
-  padding: .75rem;
+  padding: 0.75rem;
   color: white;
   text-align: center;
-  font-size: .75rem;
+  font-size: 0.75rem;
 }
