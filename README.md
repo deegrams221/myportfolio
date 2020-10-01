@@ -26,4 +26,4 @@ HTML5 | CSS3 The photos are either taken personally by me or found on unsplash.
 - Contact Form
 - My personal projects
 - About me section
-- Links to my personal blog, LinkedIn, and GitHub
+- Links to my Personal Blog, LinkedIn, and GitHub
