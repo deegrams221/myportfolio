@@ -18,12 +18,12 @@ projects!
 
 ### Technology Used:
 
-HTML5 | CSS3 <br> <br> The photos are either taken personally by me or found on
-unsplash. <br> <br> Deployed using `Vercel`
+HTML5 | CSS3 The photos are either taken personally by me or found on unsplash.
+<br> Deployed using `Vercel`
 
 ### Key Features
 
 - Contact Form
-- My personal projects
+- My Personal Projects
 - About me section
-- Links to my personal blog, LinkedIn, and GitHub
+- Links to my Personal Blog, LinkedIn, and GitHub
