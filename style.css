@@ -78,10 +78,10 @@ a:hover {
 }
 
 .hero > article > a {
-  padding: 1rem;
+  padding: 0.75rem;
   margin-top: 0.75rem;
   margin-right: 1rem;
-  width: 7rem;
+  width: 6rem;
 }
 
 @media screen and (max-width: 480px) {
