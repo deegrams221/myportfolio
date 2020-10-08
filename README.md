@@ -26,4 +26,4 @@ unsplash. <br> <br> Deployed using `Vercel`
 - Contact Form
 - My personal projects
 - About me section
-- Links to my personal blog, LinkedIn, and GitHub
+- Links to Personal Blog, LinkedIn, and GitHub
