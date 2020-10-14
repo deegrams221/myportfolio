@@ -282,10 +282,24 @@
         >
           <div class="contact-form">
             <div class="name-form">
-              <input type="text" name="name" id="name" placeholder="Name" />
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Name"
+                required
+                minlength="6"
+              />
             </div>
             <div class="email-form">
-              <input type="email" name="email" id="email" placeholder="Email" />
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Email"
+                required
+                minlength="6"
+              />
             </div>
             <div class="message-form">
               <textarea
@@ -293,6 +307,9 @@
                 id="message"
                 placeholder="Message"
                 rows="5"
+                required
+                minlength="10"
+                maxlength="240"
               ></textarea>
             </div>
             <div class="message">
