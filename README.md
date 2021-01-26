@@ -18,8 +18,7 @@ projects!
 
 ### Technology Used:
 
-HTML5 | CSS3 <br> <br> The photos are either taken personally by me or found on
-unsplash. <br> <br> Deployed using `Vercel`
+HTML5 | CSS3 | React.js | Material-UI <br> <br> The photos are all taken personally by me. <br> <br> Deployed using `Vercel`
 
 ### Key Features
 
