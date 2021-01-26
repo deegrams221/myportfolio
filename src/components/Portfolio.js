@@ -9,16 +9,18 @@ import {
   Typography,
 } from '@material-ui/core';
 import React from 'react';
+import CSSLogo from '../images/CSS.png';
 import FirebaseLogo from '../images/firebase.png';
 import FutureHope from '../images/future-hope.png';
 import Git from '../images/git.png';
 import GoogleCloud from '../images/google.png';
+import HTMLLogo from '../images/HTML.png';
+import JSLogo from '../images/JS.png';
 import KBAviary from '../images/k-b_aviary.png';
 import MaterialUI from '../images/material-ui.png';
 import NPOD from '../images/npod.png';
 // import MERN from '../images/MERN.png';
 import ReactLogo from '../images/react.png';
-import Tech from '../images/tech.png';
 import Navigation from './Navigation';
 
 const useStyles = makeStyles({
@@ -40,7 +42,9 @@ const Portfolio = () => {
         </div>
         <div className='skills'>
           <img className='skill-img' src={Git} alt='Git Logo' />
-          <img className='skill-img' src={Tech} alt='HTML CSS JS Logos' />
+          <img className='skill-img' src={HTMLLogo} alt='HTML Logo' />
+          <img className='skill-img' src={CSSLogo} alt='CSS Logo' />
+          <img className='skill-img' src={JSLogo} alt='JS Logo' />
           <img className='skill-img' src={ReactLogo} alt='React.js Logo' />
           <img className='skill-img' src={MaterialUI} alt='Material-UI Logo' />
           {/* <img className='skill-img' src={MERN} alt='MERN Stack logos' /> */}
