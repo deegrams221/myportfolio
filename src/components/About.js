@@ -31,6 +31,7 @@ const About = () => {
               <a
                 href='https://lambdaschool.com/profiles/diana-grams'
                 target='_blank'
+                rel='noreferrer'
               >
                 Lambda School
               </a>

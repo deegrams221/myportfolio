@@ -15,24 +15,27 @@ const Contact = () => {
         <div className='contact-links'>
           <a
             href='https://twitter.com/deegrams221'
-            class='contact-item'
+            className='contact-item'
             target='_blank'
+            rel='noreferrer'
           >
-            <img src={Twitter} />
+            <img src={Twitter} alt='Twitter Logo' />
           </a>
           <a
             href='https://github.com/deegrams221'
-            class='contact-item'
+            className='contact-item'
             target='_blank'
+            rel='noreferrer'
           >
-            <img src={Github} />
+            <img src={Github} alt='Github Logo' />
           </a>
           <a
             href='https://www.linkedin.com/in/diana-grams/'
-            class='contact-item'
+            className='contact-item'
             target='_blank'
+            rel='noreferrer'
           >
-            <img src={LinkedIn} />
+            <img src={LinkedIn} alt='LinkedIn Logo' />
           </a>
         </div>
         <div className='contact-content'>
@@ -40,40 +43,40 @@ const Contact = () => {
             method='post'
             action='https://formsubmit.co/deegrams221@gmail.com'
           >
-            <div class='contact-form'>
-              <div class='name-form'>
+            <div className='contact-form'>
+              <div className='name-form'>
                 <input
                   type='text'
                   name='name'
                   id='name'
                   placeholder='Name'
                   required
-                  minlength='6'
+                  minLength='6'
                 />
               </div>
-              <div class='email-form'>
+              <div className='email-form'>
                 <input
                   type='email'
                   name='email'
                   id='email'
                   placeholder='Email'
                   required
-                  minlength='6'
+                  minLength='6'
                 />
               </div>
-              <div class='message-form'>
+              <div className='message-form'>
                 <textarea
                   name='message'
                   id='message'
                   placeholder='Message'
                   rows='5'
                   required
-                  minlength='10'
-                  maxlength='240'
+                  minLength='10'
+                  maxLength='240'
                 ></textarea>
               </div>
-              <div class='message'>
-                <input type='submit' value='Send Message' class='primary' />
+              <div className='message'>
+                <input type='submit' value='Send Message' className='primary' />
               </div>
             </div>
           </form>
