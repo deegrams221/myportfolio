@@ -141,6 +141,10 @@
   }
 }
 
+.navigation {
+  margin-top: 10px;
+}
+
 .navigation > .nav-button {
   padding: 10px;
   text-decoration: none;
