@@ -1,7 +1,6 @@
 import {
   Button,
   Card,
-  CardActionArea,
   CardActions,
   CardMedia,
   makeStyles,
@@ -33,16 +32,14 @@ const Blog = () => {
         </div>
         <div className='blog-content'>
           <Card className={classes.root}>
-            <CardActionArea>
-              <CardMedia
-                className='media'
-                component='img'
-                alt='IT Fundamentals Blog Post'
-                height='200'
-                src={ITFund}
-                title='IT Fundamentals Blog Post'
-              />
-            </CardActionArea>
+            <CardMedia
+              className='media'
+              component='img'
+              alt='IT Fundamentals Blog Post'
+              height='200'
+              src={ITFund}
+              title='IT Fundamentals Blog Post'
+            />
             <CardActions>
               <Button
                 className='button'
@@ -56,16 +53,14 @@ const Blog = () => {
             </CardActions>
           </Card>
           <Card className={classes.root}>
-            <CardActionArea>
-              <CardMedia
-                className='media'
-                component='img'
-                alt='The Importance of Accessibility Blog'
-                height='200'
-                src={Accessibility}
-                title='The Importance of Accessibility Blog'
-              />
-            </CardActionArea>
+            <CardMedia
+              className='media'
+              component='img'
+              alt='The Importance of Accessibility Blog'
+              height='200'
+              src={Accessibility}
+              title='The Importance of Accessibility Blog'
+            />
             <CardActions>
               <Button
                 className='button'
@@ -79,16 +74,14 @@ const Blog = () => {
             </CardActions>
           </Card>
           <Card className={classes.root}>
-            <CardActionArea>
-              <CardMedia
-                className='media'
-                component='img'
-                alt='React Native Blog'
-                height='200'
-                src={ReactNative}
-                title='React Native Blog'
-              />
-            </CardActionArea>
+            <CardMedia
+              className='media'
+              component='img'
+              alt='React Native Blog'
+              height='200'
+              src={ReactNative}
+              title='React Native Blog'
+            />
             <CardActions>
               <Button
                 className='button'
@@ -102,16 +95,14 @@ const Blog = () => {
             </CardActions>
           </Card>
           <Card className={classes.root}>
-            <CardActionArea>
-              <CardMedia
-                className='media'
-                component='img'
-                alt='Lambda School blog post'
-                height='200'
-                src={Lambda}
-                title='Lambda School blog post'
-              />
-            </CardActionArea>
+            <CardMedia
+              className='media'
+              component='img'
+              alt='Lambda School blog post'
+              height='200'
+              src={Lambda}
+              title='Lambda School blog post'
+            />
             <CardActions>
               <Button
                 className='button'
@@ -125,16 +116,14 @@ const Blog = () => {
             </CardActions>
           </Card>
           <Card className={classes.root}>
-            <CardActionArea>
-              <CardMedia
-                className='media'
-                component='img'
-                alt='Blogging blog post'
-                height='200'
-                src={Blogging}
-                title='Blogging blog post'
-              />
-            </CardActionArea>
+            <CardMedia
+              className='media'
+              component='img'
+              alt='Blogging blog post'
+              height='200'
+              src={Blogging}
+              title='Blogging blog post'
+            />
             <CardActions>
               <Button
                 className='button'
