@@ -182,42 +182,48 @@ const Portfolio = () => {
               </Typography>
             </CardContent>
             <CardActions disableSpacing>
-              <Button
-                size='small'
-                color='primary'
-                href='https://future-hope-prod.netlify.com/'
-                target='_blank'
-              >
-                <img
-                  className='button-img'
-                  src={Website}
-                  alt='Visit Website'
-                  height={30}
-                />
-              </Button>
-              <Button
-                size='small'
-                color='primary'
-                href='https://github.com/Lambda-School-Labs/future-hope-fe'
-                target='_blank'
-              >
-                <img
-                  className='button-img'
-                  src={Github}
-                  alt='Visit Github'
-                  height={30}
-                />
-              </Button>
-              <IconButton
-                className={clsx(classes.expand, {
-                  [classes.expandOpen]: expanded,
-                })}
-                onClick={handleExpandClick}
-                aria-expanded={expanded}
-                aria-label='show more'
-              >
-                <ExpandMoreIcon />
-              </IconButton>
+              <Tooltip title='Visit Website'>
+                <Button
+                  size='small'
+                  color='primary'
+                  href='https://future-hope-prod.netlify.com/'
+                  target='_blank'
+                >
+                  <img
+                    className='button-img'
+                    src={Website}
+                    alt='Visit Website'
+                    height={30}
+                  />
+                </Button>
+              </Tooltip>
+              <Tooltip title='View Github'>
+                <Button
+                  size='small'
+                  color='primary'
+                  href='https://github.com/Lambda-School-Labs/future-hope-fe'
+                  target='_blank'
+                >
+                  <img
+                    className='button-img'
+                    src={Github}
+                    alt='Visit Github'
+                    height={30}
+                  />
+                </Button>
+              </Tooltip>
+              <Tooltip title='Expand'>
+                <IconButton
+                  className={clsx(classes.expand, {
+                    [classes.expandOpen]: expanded,
+                  })}
+                  onClick={handleExpandClick}
+                  aria-expanded={expanded}
+                  aria-label='show more'
+                >
+                  <ExpandMoreIcon />
+                </IconButton>
+              </Tooltip>
             </CardActions>
             <Collapse in={expanded} timeout='auto' unmountOnExit>
               <CardContent>
@@ -249,42 +255,48 @@ const Portfolio = () => {
               </Typography>
             </CardContent>
             <CardActions disableSpacing>
-              <Button
-                size='small'
-                color='primary'
-                href='https://npod.netlify.app/'
-                target='_blank'
-              >
-                <img
-                  className='button-img'
-                  src={Website}
-                  alt='Visit Website'
-                  height={30}
-                />
-              </Button>
-              <Button
-                size='small'
-                color='primary'
-                href='https://github.com/deegrams221/nasa-photo-of-the-day'
-                target='_blank'
-              >
-                <img
-                  className='button-img'
-                  src={Github}
-                  alt='Visit Github'
-                  height={30}
-                />
-              </Button>
-              <IconButton
-                className={clsx(classes.expand, {
-                  [classes.expandOpen]: expanded,
-                })}
-                onClick={handleExpandClick}
-                aria-expanded={expanded}
-                aria-label='show more'
-              >
-                <ExpandMoreIcon />
-              </IconButton>
+              <Tooltip title='Visit Website'>
+                <Button
+                  size='small'
+                  color='primary'
+                  href='https://npod.netlify.app/'
+                  target='_blank'
+                >
+                  <img
+                    className='button-img'
+                    src={Website}
+                    alt='Visit Website'
+                    height={30}
+                  />
+                </Button>
+              </Tooltip>
+              <Tooltip title='Visit Github'>
+                <Button
+                  size='small'
+                  color='primary'
+                  href='https://github.com/deegrams221/nasa-photo-of-the-day'
+                  target='_blank'
+                >
+                  <img
+                    className='button-img'
+                    src={Github}
+                    alt='Visit Github'
+                    height={30}
+                  />
+                </Button>
+              </Tooltip>
+              <Tooltip title='Expand'>
+                <IconButton
+                  className={clsx(classes.expand, {
+                    [classes.expandOpen]: expanded,
+                  })}
+                  onClick={handleExpandClick}
+                  aria-expanded={expanded}
+                  aria-label='show more'
+                >
+                  <ExpandMoreIcon />
+                </IconButton>
+              </Tooltip>
             </CardActions>
             <Collapse in={expanded} timeout='auto' unmountOnExit>
               <CardContent>
