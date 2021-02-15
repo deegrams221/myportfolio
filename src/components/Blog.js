@@ -10,6 +10,7 @@ import Accessibility from '../images/Accessibility.png';
 import Blogging from '../images/Blogging.png';
 import ITFund from '../images/IT-Fundamentals.png';
 import Lambda from '../images/Lambda.png';
+import NetworkFund from '../images/Network-Fundamentals.png';
 import ReactNative from '../images/React-Native.png';
 import Navigation from './Navigation';
 
@@ -31,6 +32,27 @@ const Blog = () => {
           <h1>blog</h1>
         </div>
         <div className='blog-content'>
+          <Card className={classes.root}>
+            <CardMedia
+              className='media'
+              component='img'
+              alt='Networking Fundamentals Blog Post'
+              height='200'
+              src={NetworkFund}
+              title='Networking Fundamentals Blog Post'
+            />
+            <CardActions>
+              <Button
+                className='button'
+                size='small'
+                color='primary'
+                href='https://www.diana-grams.com/networking/'
+                target='_blank'
+              >
+                View Blog
+              </Button>
+            </CardActions>
+          </Card>
           <Card className={classes.root}>
             <CardMedia
               className='media'
