@@ -21,13 +21,27 @@ const About = () => {
           <div className='about-description'>
             <h1>Diana Grams</h1>
             <h2>Owner of DG Web Consulting</h2>
-            <h3>Web Developer</h3>
+            <p>I enjoy rock climbing, hiking, and yoga.</p>
             <p>
-              I enjoy rock climbing, hiking, and yoga. I worked in special
-              education and behavior therapy for 4 years. I'm a US Navy Veteran,
-              have an Associates degree in Liberal Arts: Social and Behavior
-              Science, as well as a Bachelors degree is Anthropology. I recently
-              completed the Full Stack Web Development program at -
+              I worked in special education and behavior therapy for 4 years.
+              I'm a US Navy Veteran, have a Bachelors degree in Anthropology
+              from{' '}
+              <a href='https://www.csulb.edu/' target='_blank' rel='noreferrer'>
+                California State University - Long Beach
+              </a>
+              , as well as an Associates degree in Liberal Arts: Social and
+              Behavior Science from{' '}
+              <a
+                href='http://www.goldenwestcollege.edu/'
+                target='_blank'
+                rel='noreferrer'
+              >
+                Golden West College
+              </a>
+              .
+            </p>
+            <p>
+              I have a Full Stack Web Development certification from{' '}
               <a
                 href='https://lambdaschool.com/profiles/diana-grams'
                 target='_blank'
@@ -36,8 +50,19 @@ const About = () => {
                 Lambda School
               </a>
               , and worked as a Team Lead for Lambda School's computer science
-              unit for a year. I love helping people and I think technology is a
-              great way to do that.
+              unit for a year.
+            </p>
+            <p>
+              I also have a Certified Project Officer certification from the{' '}
+              <a href='https://institute.pm/' target='_blank' rel='noreferrer'>
+                Institute of Project Management
+              </a>{' '}
+              and I'm currently working towards the Certified Associate in
+              Project Management (CAPM) certification from the{' '}
+              <a href='https://www.pmi.org/' target='_blank' rel='noreferrer'>
+                Project Management Institute
+              </a>
+              .
             </p>
           </div>
         </div>

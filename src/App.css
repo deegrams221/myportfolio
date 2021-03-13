@@ -2,6 +2,15 @@
   text-align: center;
 }
 
+a {
+  text-decoration: none;
+  color: #104270;
+}
+
+a:hover {
+  color: #c9507a;
+}
+
 .hero {
   position: relative;
   width: 100vw;
