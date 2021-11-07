@@ -279,6 +279,13 @@ a:hover {
   margin-bottom: 40px;
 }
 
+.contact > .contact-links > a > img {
+  max-width: 50px;
+  max-height: 50px;
+  width: 50px;
+  height: 50px;
+}
+
 form {
   width: 30rem;
 }
