@@ -20,7 +20,7 @@ const About = () => {
           <img src={MeImg} alt='Diana Grams' />
           <div className='about-description'>
             <h1>Diana Grams</h1>
-            <h2>Owner of DG Web Consulting</h2>
+            <h2>DevOps Scrum Master</h2>
             <p>I enjoy rock climbing, hiking, and yoga.</p>
             <p>
               I worked in special education and behavior therapy for 4 years.
@@ -57,13 +57,13 @@ const About = () => {
               <a href='https://institute.pm/' target='_blank' rel='noreferrer'>
                 Institute of Project Management
               </a>{' '}
-              and I'm currently working towards the Certified Associate in
-              Project Management (CAPM) certification from the{' '}
-              <a href='https://www.pmi.org/' target='_blank' rel='noreferrer'>
-                Project Management Institute
-              </a>
-              .
+              and the{' '}
+              <a href='https://bcert.me/swabmipym' target='_blank' rel='noreferrer'>
+              Certified Scrum Master
+              </a>{' '} certification from Scrum Alliance.
             </p>
+            <p>My portfolio displays web development work I've done for a small aviary called K&B Aviary, and work I did for a non-profit called Furute Hope School in the Sky, as well as a fun project I did that pulls data from the NASA API.</p>
+            <p>I currently work with an amazing team at Flexential Professional Services. I enjoy web development but I enjoy helping people even more, as a Scrum Master I get to do that everyday. In this position I also do client management, and occationally I get the chance to help debug code or assist with formatting too.</p>
           </div>
         </div>
 
