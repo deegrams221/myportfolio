@@ -8,7 +8,7 @@ import {
   IconButton,
   makeStyles,
   Tooltip,
-  Typography,
+  Typography
 } from '@material-ui/core';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import clsx from 'clsx';
@@ -114,7 +114,7 @@ const Portfolio = () => {
                 <Button
                   size='small'
                   color='primary'
-                  href='https://kbaviary.com/'
+                  href='https://k-b-aviary.netlify.app/'
                   target='_blank'
                 >
                   <img
